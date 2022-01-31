@@ -1,0 +1,58 @@
+.roxo-main-style {
+  display: flex;
+  flex-direction: row;
+}
+.roxo-text-section {
+  color: #1c1e21;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.text-style-roxo {
+  font-family: Monterserat;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: justify;
+  /* 1. Text sizes:15px
+  2. Font-family: monterserat.
+  3. Line hight: 1.8
+   */
+  max-width: 345px;
+}
+.roxo-image-section {
+  align-items: center;
+
+  display: flex;
+  justify-content: center;}
+.roxo-image-section img{
+  /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6); */
+
+}
+.roxo-xoin-heading{
+  padding: 18px;
+}
+.roxo-style{
+  padding-top: 115px;
+
+  /* padding: 115px; */
+}
+/* .roxo-coin-size{
+  height:"150px";
+  width:"150px"
+} */
+@media only screen and (max-width: 900px){
+  .roxo-main-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+  }
+  .roxo-image-section{
+    margin-top: 40px;
+
+  }
+}

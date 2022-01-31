@@ -1,0 +1,153 @@
+
+.background-color-signup{
+    background-color: #e4e6eb ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    /* color: green; */
+    /* background-color: green; */
+ 
+    
+ }
+
+ .signup-modal-body-padding{
+    padding: 20px 12px;
+ }
+
+ .signup-button-style{
+    margin-top: 4%;
+    padding: 6px 18px;
+  
+    width: 100%;
+    border-radius: 12px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+  
+    background-color: #e4e6eb;
+    border:none;
+  
+  
+  }
+  .modal-body-signup {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+  .signup-password-login{
+    /* margin-top: 3%; */
+
+    /* margin: 18px 0px; */
+    padding: 6px 18px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    outline: none;
+
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    
+    }
+    .signup-birthDate-login{
+        /* margin-top: 3%; */
+
+        /* margin: 18px 0px; */
+        padding: 6px 18px;
+        /* margin: 4% 0; */
+        outline: none;
+
+        color: #1c1e21;
+        background-color: #e4e6eb;
+        border: none;
+        border-radius: 12px;
+        width: 100%;
+    }
+   .signup-birthDate-label{
+    margin-top: 2%;
+
+   } 
+    .signup-email-login{
+        /* margin-top: 3%; */
+
+        /* margin: 18px 0px; */
+        padding: 6px 18px;
+        /* margin: 4% 0; */
+        color: #1c1e21;
+        background-color: #e4e6eb;
+        border: none;
+        outline: none;
+
+        border-radius: 12px;
+        width: 100%;
+        
+        }
+        .signup-name-login{
+            /* margin-top: 3%; */
+            padding: 6px 18px;
+            color: #1c1e21;
+            background-color: #e4e6eb;
+            border: none;
+            border-radius: 12px;
+            outline: none;
+
+            width: 100%;
+            
+            }
+            .signup-Gender-login{
+                /* margin-top: 3%; */
+                padding: 6px 18px;
+                color: #1c1e21;
+                background-color: #e4e6eb;
+                border: none;
+                border-radius: 12px;
+                outline: none;
+
+                width: 100%;
+            }
+            .signup-gender-inputs{
+                margin-left: 11px;
+            }
+            .heading-signup{
+                padding-left: 107px;
+ 
+            }
+            .signup-image{
+               margin-left: 20px;
+ 
+            }
+ 
+           .display-signup-style{
+               display: flex;
+               flex-direction: column;
+ 
+           } 
+           .modal-open {
+            /* overflow: visible !important; */
+            padding-right: 0px !important;
+        }
+ 
+           .signup-have-account{
+            font-size: 14px;
+            /* padding: 0px 40px; */
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 12px 0px;
+           }
+           .signup-register-now{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+           }
+           .signup-image-side{
+            display: flex!important;
+            align-items: center;
+            flex-direction: column;
+           }
+           .signup-fields-heading{
+            text-align: center;
+ 
+           }

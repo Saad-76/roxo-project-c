@@ -1,0 +1,144 @@
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    pointer-events: auto;
+    /* background-color: transparent ; */
+    background-clip: padding-box;
+
+    
+    /* border: 1px solid rgba(0,0,0,.2); */
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+  .modal-border-style{
+    border-radius: 14px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  }
+  
+    .modal-body {
+      position: relative;
+      flex: 1 1 auto;
+      padding: 5rem;
+  
+  }
+  .modal{
+    background: rgb(0,0,0,0.5);
+    
+  
+  }
+  /* .modal-open{
+    overflow: visible !important;
+      padding-right: 0px;
+  } */
+  
+  .Verticle-scroller{
+    height:40%;
+      width: 100%;
+      overflow-y: scroll;
+      background-color: white
+  }
+    
+    .modal-dialog {
+    max-width: 500px;
+    margin-left: 18%;
+  }
+  .modal-backdrop{
+    display:none;
+  }
+  
+  
+  .btn-style{
+  font-size: large;
+  font-weight: bold; 
+  padding: 4px 8px;
+  }
+  .login-image-side{
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+  }
+  .login-form-style-roxo{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .input-email-login{
+    margin-top: 8%;
+    padding: 6px 18px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+  
+  }
+  .input-password-login{
+    margin: 18px 0px;
+      padding: 6px 18px;
+      /* margin: 4% 0; */
+      color: #1c1e21;
+      background-color: #e4e6eb;
+      border: none;
+      border-radius: 12px;
+      width: 100%;
+  
+  }
+  .login-form-display{
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .register-button-loginForm{
+    margin: 2px 2px;
+    padding: 6px 18px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 100%;
+  
+    background-color: #e4e6eb;
+    border:none;
+  }
+  /* .login-form-heading{
+    margin: 2px 25px;
+  } */
+  .login-button-style{
+    margin-top: 4%;
+    padding: 6px 18px;
+  
+    width: 100%;
+    border-radius: 12px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+  
+    background-color: #e4e6eb;
+    border:none;
+  
+  
+  }
+  .modal-open{
+    /* overflow: visible !important; */
+    /* padding-right: 0px !important; */
+  
+  }
+  .forget-password {
+    font-size: 14px;
+    /* padding: 2px 60px; */
+  }
+  
+  .have-account {
+    font-size: 14px;
+    /* padding: 0px 40px; */
+    margin: 0;
+  }
+  .register-now{
+    padding: 0px 70px;
+  
+  }
+  
